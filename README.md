@@ -1,6 +1,11 @@
 # Randomizer Package:
 ## A new package that allows you to easily call random elements of an array, or from a string, AND also functions as a full wrapper for ez-math.js
 
+
+### run in the shell: 
+```
+npm install ez-math.js randomizer-package --save
+```
 # __how to use__
 ```
 const Random = require('randomizer-package');
