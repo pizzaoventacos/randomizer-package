@@ -32,11 +32,14 @@ var poss = '1st option, 2nd option, 3rd option, has to be all in one string, etc
 console.log(random(poss)) //The same as above
 console.log(randomInt(1, 300)) //returns a pseudo-randomly generated number between 1 and 300.
 /*
-__****Important****__
-> 1. Calling the random function on the same set of possibilities twice returns two **different** elements.
->> 2.This still may return the same, but that is due to a the same number being randomly generated twice, and therefore, will not happen as often as the elements being different.
+
+**Important**
+ 1. Calling the random function on the same set of possibilities twice returns two **different** elements.
+ 2.This still may return the same, but that is due to a the same number being randomly generated twice, and therefore, will not happen as often as the elements being different.
+ 
 */
 ```
+
 # Methods: 
 > ## __random__ - _returns a random response from an array or string_
 >>Parameters - array(required)
